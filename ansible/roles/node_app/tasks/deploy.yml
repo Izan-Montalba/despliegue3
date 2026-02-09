@@ -9,7 +9,7 @@
   git:
     repo: 'https://github.com/Izan-Montalba/despliegue3.git'
     dest: /home/deploy/apps/myapp
-    version: "{{ git_ref | default('main') }}"
+    version: main
     force: yes
   become: no
 - name: Install npm dependencies
