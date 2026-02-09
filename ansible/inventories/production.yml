@@ -1,6 +1,6 @@
 all:
 hosts:
 web1:
-ansible_host: 79.116.218.176
+ansible_host: 192.168.82.213
 ansible_user: deploy
 ansible_python_interpreter: /usr/bin/python3
